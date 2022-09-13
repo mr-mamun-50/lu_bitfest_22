@@ -12,6 +12,8 @@ $menu = 'Home';
         @include('dashboards.student')
     @elseif (Auth::user()->category == 'stuff')
         @include('dashboards.teacher')
+    @elseif (Auth::user()->category == 'driver')
+        @include('dashboards.driver')
     @endif
 @endsection
 

@@ -9,7 +9,7 @@
                 <div class="card bg-success">
                     <div class="card-body text-white">
                         <h5 class="card-title">Routes Available</h5>
-                        <hr>
+
                         <p class="card-text">4</p>
                     </div>
                 </div>

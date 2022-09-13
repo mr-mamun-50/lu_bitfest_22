@@ -23,6 +23,7 @@ $submenu = ''; ?>
                 <table class="table table-bordered table-striped" id="example1">
                     <thead>
                         <tr>
+                            <th>SL</th>
                             <th>Name</th>
                             <th>E-mail</th>
                             <th>Phone</th>

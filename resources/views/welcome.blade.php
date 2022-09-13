@@ -1,10 +1,10 @@
 @include('layouts.includes.head')
 
-<body class="bg-light">
+<body class="">
 
     <main class="">
 
-        <div class="container bg-light col-lg-9">
+        <div class="container col-lg-9">
 
             <div class="d-md-flex justify-content-between">
 

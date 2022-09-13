@@ -2,3 +2,40 @@
     background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
         url("../images/asset_img/lu.jpg");
 }
+
+/* driver sections  */
+
+.stoppage_info {
+    padding: 20px;
+    border-radius: 55px;
+    /* background: #e0e0e0; */
+    box-shadow: 5px 5px 15px #bebebe, -5px -5px 15px #ffffff;
+    text-align: center;
+}
+
+.main_section {
+    padding: 25px;
+    /* border:1px solid; */
+    position: relative;
+}
+
+.big_text {
+    font-size: 30px;
+}
+
+.r_status {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /* border: 1px solid red; */
+
+    /* padding-left: 30px; */
+}
+
+.s_half {
+    display: flex;
+    justify-content: center;
+}

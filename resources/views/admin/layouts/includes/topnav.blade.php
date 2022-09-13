@@ -5,7 +5,7 @@
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="" class="nav-link">Go to Amar College</a>
+            <a href="{{ route('dashboard') }}" class="nav-link" target="blank">Go to LU Bus</a>
         </li>
     </ul>
 

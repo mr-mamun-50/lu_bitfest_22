@@ -11,7 +11,7 @@
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Navbar brand -->
-            <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <a class="navbar-brand mt-2 mt-lg-0" href="{{ url('/') }}">
                 <img src="{{ asset('images/logos/uni_logo.png') }}" alt="MDB Logo" loading="lazy"
                     style="height: 40px" />
             </a>

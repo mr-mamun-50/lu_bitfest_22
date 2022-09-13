@@ -71,7 +71,7 @@ $submenu = ''; ?>
         </div>
 
         <div class="row">
-            <div class="col-md-6">
+            {{-- <div class="col-md-6">
                 <div class="card">
                     <div class="card-header">
                         <h5 class="card-title">Class Wise Number of Students</h5>
@@ -117,7 +117,7 @@ $submenu = ''; ?>
 
                 </div>
                 <!-- /.card -->
-            </div>
+            </div> --}}
             <!-- /.col -->
 
             <div class="col-md-12">
@@ -145,6 +145,7 @@ $submenu = ''; ?>
                                     <th>Name</th>
                                     <th>Phone</th>
                                     <th>Email</th>
+                                    <th>Student ID</th>
                                     <th>Approval</th>
                                 </tr>
                             </thead>
@@ -156,10 +157,15 @@ $submenu = ''; ?>
                                             <img src="{{ asset('images/asset_img/user.png') }}" class="rounded-circle"
                                                 alt="Thumbnail" style="width: 50px">
                                         </td>
-                                        <td>{{ $item->name }}</td>
+                                        <td>{{ $item->name }} <br>
+                                            <small>{{ $item->t_designation }} <br>
+                                                {{ $item->category }}
+                                            </small>
+                                        </td>
                                         <td>{{ $item->phone }}</td>
                                         <td> <a href="mailto:{{ $item->email }}" target="blank">{{ $item->email }}</a>
                                         </td>
+                                        <td>{{ $item->s_id }}</td>
                                         {{-- <td>{{ date('d F, Y', strtotime($item->created_at)) }}</td> --}}
                                         <td>
                                             @if ($item->is_verified == 1)

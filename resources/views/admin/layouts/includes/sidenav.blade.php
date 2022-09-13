@@ -88,20 +88,6 @@
                     </a>
                 </li>
 
-                <li class="nav-item @if ($menu == 'Routine') menu-open @endif">
-                    <a href="#" class="nav-link @if ($menu == 'Routine') active @endif">
-                        <i class="nav-icon fas fa-calendar-alt"></i>
-                        <p> Routines <i class="fas fa-angle-left right"></i> </p>
-                    </a>
-                </li>
-
-                <li class="nav-item @if ($menu == 'Students') menu-open @endif">
-                    <a href="#" class="nav-link @if ($menu == 'Students') active @endif">
-                        <i class="nav-icon fas fa-user-friends"></i>
-                        <p> Students <i class="fas fa-angle-left right"></i> </p>
-                    </a>
-                </li>
-
             </ul>
         </nav>
         <!-- /.sidebar-menu -->
